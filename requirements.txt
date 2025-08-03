@@ -3,3 +3,6 @@ Flask==2.2.5
 schedule==1.2.1
 pytz==2024.1
 requests
+beautifulsoup4
+lxml
+selenium
