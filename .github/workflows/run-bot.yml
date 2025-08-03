@@ -18,7 +18,7 @@ jobs:
 
       - name: Instalar dependências
         run: |
-          pip install -r requisitos.txt
+          pip install -r requirements.txt
 
       - name: Executar o bot
         run: |
