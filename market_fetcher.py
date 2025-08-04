@@ -24,6 +24,7 @@ def extract_table_data_panoramas(soup, title_text):
 def get_panoramalaatus_data(session_cookies=None):
     url = "https://panoramalaatus.com.br/"
     headers = {
-        "User-Agent": "Mozilla
+     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
 
 
