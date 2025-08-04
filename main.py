@@ -26,4 +26,5 @@ try:
     mensagem = gerar_mensagem_mercado(dados)
     bot.send_message(chat_id=CHAT_ID, text=mensagem)
 except Exception as e:
-    bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Erro ao_
+ bot.send_message(chat_id=CHAT_ID, text=f"Erro ao executar o bot: {e}")
+
